@@ -7,12 +7,21 @@ Let's automate some docker forensics! Search for specific terms in a docker imag
 Examples
 
 - [Whale Watching](https://ctftime.org/task/12575)
+
+```
+$ ./docker-find.sh johnhammond/whale_watching flag{
+```
+
 - [Peel back the layers](https://ctftime.org/task/18090)
+
+```
+$ ./docker-find.sh steammaintainer/gearrepairimage HTB{
+```
 
 ## Usage
 
 ```
-./docker-find [image] [search-term]
+$ ./docker-find [image] [search-term]
 ```
 
 ## Search Steps
