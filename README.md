@@ -15,7 +15,7 @@ Examples
 ./docker-find [image] [search-term]
 ```
 
-## Steps
+## Search Steps
 
 1. search `docker history`
 1. search `docker inspect`
